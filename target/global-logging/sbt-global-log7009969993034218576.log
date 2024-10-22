@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Oracle Corporation Java 1.8.0_401)
+[debug] Load.defaultLoad until apply took 164.9785ms
+[debug]           Load.loadUnit: plugins took 109.9031ms
+[debug]           Load.loadUnit: defsScala took 0.2647ms
+[debug] [Loading] Scanning directory C:\Users\USER\Downloads\finalprojectv2-ChingBasil\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\USER\Downloads\finalprojectv2-ChingBasil\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.2295 ms
+[debug]               Load.resolveProject(finalprojectv2-chingbasil-build) took 46.1ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id finalprojectv2-chingbasil-build, base: C:\Users\USER\Downloads\finalprojectv2-ChingBasil\project, plugins: List(<none>))) took 98.1497ms
+[debug] [Loading] Done in C:\Users\USER\Downloads\finalprojectv2-ChingBasil\project, returning: (finalprojectv2-chingbasil-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 120.3738ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.2416ms
+[debug]         Load.loadUnit(file:/C:/Users/USER/Downloads/finalprojectv2-ChingBasil/project/, ...) took 236.2461ms
+[debug]       Load.apply: load took 501.5512ms
+[debug]       Load.apply: resolveProjects took 6.3303ms
+[debug]       Load.apply: finalTransforms took 55.2979ms
+[debug]       Load.apply: config.delegates took 7.6661ms
+[debug]       Load.apply: Def.make(settings)... took 391.5423ms
+[debug]       Load.apply: structureIndex took 102.8186ms
+[debug]       Load.apply: mkStreams took 1.7518ms
+[info] loading project definition from C:\Users\USER\Downloads\finalprojectv2-ChingBasil\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1970.1683ms
+[debug]     Load.loadUnit: defsScala took 0.0039ms
+[debug] [Loading] Scanning directory C:\Users\USER\Downloads\finalprojectv2-ChingBasil
+[debug]       Load.loadUnit: mkEval took 6.9035ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6299 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.3825ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\USER\Downloads\finalprojectv2-ChingBasil, plugins: List(<none>))) took 4.9306ms
+[debug] [Loading] Done in C:\Users\USER\Downloads\finalprojectv2-ChingBasil, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3996.3486ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.8704ms
+[debug]   Load.loadUnit(file:/C:/Users/USER/Downloads/finalprojectv2-ChingBasil/, ...) took 5978.8633ms
+[debug] Load.apply: load took 5998.0783ms
+[debug] Load.apply: resolveProjects took 0.0944ms
+[debug] Load.apply: finalTransforms took 12.3448ms
+[debug] Load.apply: config.delegates took 0.5623ms
+[debug] Load.apply: Def.make(settings)... took 93.882ms
+[debug] Load.apply: structureIndex took 29.2351ms
+[debug] Load.apply: mkStreams took 0.0042ms
+[info] set current project to scalaFXIntro (in build file:/C:/Users/USER/Downloads/finalprojectv2-ChingBasil/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-2a33339db1e6197e8000
+[debug] Writing bsp connection file
+[info] started sbt server
